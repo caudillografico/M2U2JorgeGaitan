@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EjerciciosMod2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>
+                    "Ingrese los cuatro números:"                  
+                </h1>
+            </div>
+            <div>
+                <form action="index.php" method="post">
+                    <div class="col-md-12">
+                        <input type="text" name="num1" placeholder="Ingrese el primer número">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="num2" placeholder="Ingrese el segundo número">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="num3" placeholder="Ingrese el tercer número">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="num4" placeholder="Ingrese el cuarto número">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="button" value="Enviar" id="btn" tabindex="5">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12">
+                <p id="resultadoMayor">"El número mayor es:"</p>
+                <p id="resultadoMenor">"El número menor es:"</p>
+            </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
